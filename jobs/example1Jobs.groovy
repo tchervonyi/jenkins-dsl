@@ -1,9 +1,9 @@
 String basePath = 'example1'
-String repo = 'sheehan/grails-example'
+String repo = 'tchervonyi/jenkins-dsl'
 
-//folder(basePath) {
-//    description 'This example shows basic folder/job creation.'
-//}
+folder(basePath) {
+    description 'This example shows basic folder/job creation.'
+}
 
 job("$basePath/grails-example-build") {
     scm {
